@@ -1,0 +1,122 @@
+body {
+    background-repeat: repeat;
+    background-image: url("img/Tile.png");
+    background-size: 100px;
+}
+.mainbox {
+    border-radius: 15px;
+    background-color: rgb(64 64 64 / 255);
+    box-shadow: 1cap 10px 10px black;
+    width: 80%;
+    padding: 15px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 10%;
+    text-align: left;
+
+}
+.upbox {
+    border-radius: 10px;
+    background-color: darkblue;
+    box-shadow: 1cap 10px 10px black;
+    width: 98%;
+    height: 72px;
+    margin-left: 1%;
+    text-align: left;
+    align-content: center;
+    line-height: 64px;
+    column-count: 64px;
+}
+.pofigbox {
+    background-color: rgb(80, 80, 80);
+    padding: 15px;
+    border-radius: 15px;
+    box-shadow: 1cap 10px 10px black;
+}
+.pofigbox img{
+    float: left;
+    border-radius: 15px;
+    margin-right: 25px;
+    box-shadow: 0 0px 25px gray;
+}
+.textblock {
+    display: block;
+}
+.textblock h2 {
+    line-height: 25px;
+}
+.textblock h4 {
+    line-height: 20px;
+}
+.textblock p {
+    font-family: 'DeJavu Sans Mono';
+    color: white;
+    padding: 5px;
+    background-color: black;
+    border-radius: 10px;
+    box-shadow: 0 0px 25px black;
+}
+a {
+    color: orange;
+    background-color: transparent;
+    transition: ease 0.15s;
+}
+a:hover {
+    color: white;
+    background-color: transparent;
+}
+.textblock a:active {
+    color: darkorange;
+    background-color: transparent;
+}
+.pofigbox::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+.upbuttons {
+    border-radius: 25px;
+    height: 40%;
+    padding-right: 24px;
+    padding-left: 24px;
+    margin-left: 16px;
+    color: white;
+    background-color: orange;
+    border-width: 0px;
+    transition: ease 0.15s;
+}
+.upbuttons:hover {
+    color: black;
+    background-color: white;
+    cursor: pointer;
+}
+.upbuttons:active {
+    background-color: orange;
+    color: white;
+}
+h1 {
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 16px;
+}
+h2 {
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 8px;
+}
+h3 {
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 6px;
+}
+h4 {
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 4px;
+}
+h5 {
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 2px;
+}
+
